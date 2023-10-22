@@ -270,7 +270,7 @@ button:hover,
   padding: 13px 62px;
 }
 
-.price-card__btn_red {
+.price-card__btn:hover {
   background-color: #f53838;
   color: #fff;
 }
