@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <div class="header-nav">
         <div class="header__logo">
           <a href="#"><img src="./assets/Logo.png" alt="The logo" /></a>
         </div>
-        <!-- <div class="header__list"> -->
+
         <ul class="list-ul">
           <li class="nav-list"><a href="#" class="list_link">About</a></li>
           <li class="nav-list"><a href="#" class="list_link">Features</a></li>
@@ -28,16 +28,18 @@
           </li>
           <li class="nav-list"><a href="#" class="list_link">Help</a></li>
         </ul>
-        <!-- </div> -->
 
         <div class="header__login">
           <a href="#" class="login__sign-in">Sign in</a>
           <a href="#" class="login__sign-up">Sign up</a>
         </div>
+        <div class="burger">
+          <div class="burger__line"></div>
+        </div>
       </div>
-    </div>
+    </header>
 
-    <section class="get-started">
+    <section class="section-get-started">
       <div class="get-started__wrapper">
         <div class="get-started__info">
           <h1 class="info__title">
@@ -155,7 +157,7 @@
               <p class="price-card__info-title">Works on All Devices</p>
             </div>
 
-            <p class="price-card__type">Free</p>
+            <p class="price-card__type price-card__type_free">Free</p>
             <a href="#" class="price-card__btn">Select</a>
           </div>
         </a>
@@ -230,7 +232,7 @@
             </div>
 
             <p class="price-card__type price-card__type_premium">$12 / mo</p>
-            <a href="#" class="price-card__btn price-card__btn_red">Select</a>
+            <a href="#" class="price-card__btn">Select</a>
           </a>
         </div>
       </div>
@@ -246,7 +248,11 @@
         locations.
       </p>
 
-      <img src="./assets/Huge Global.png" alt="The map" />
+      <img
+        class="global__main-img"
+        src="./assets/Huge Global.png"
+        alt="The map"
+      />
 
       <div class="global-partners">
         <img src="./assets/Netflix.png" alt="Tne logo of Netflix" />
@@ -319,7 +325,7 @@
           </div>
         </div>
 
-        <div class="testimonials-card">
+        <div class="testimonials-card testimonial-card_unvisible">
           <div class="testimonial-card__content">
             <div class="card-header">
               <div class="card-header__info">
@@ -365,7 +371,7 @@
           <h2 class="subscribe-content__title">
             Subscribe Now for Get Special Features!
           </h2>
-          <p class="subscribe-content__title">
+          <p class="subscribe-content__subtitle">
             Let's subscribe with us and find the fun.
           </p>
         </div>
@@ -429,10 +435,10 @@
               <a href="#" class="footer-list__link">About Us</a>
             </li>
             <li class="footer-list">
-              <a href="#" class="footer-list__link">Countries</a>
+              <a href="#" class="footer-list__link">Privacy Policy</a>
             </li>
             <li class="footer-list">
-              <a href="#" class="footer-list__link">Blog</a>
+              <a href="#" class="footer-list__link">Terms of Service</a>
             </li>
           </ul>
         </div>
